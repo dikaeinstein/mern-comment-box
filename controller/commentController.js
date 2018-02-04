@@ -39,6 +39,7 @@ router.route('/comments')
   });
 
 router.route('/comments/:commentID')
+  // update comment
   .put((req, res) => {
     Comment.findByIdAndUpdate(
       req.params.commentID,
@@ -52,6 +53,7 @@ router.route('/comments/:commentID')
       },
     );
   })
+  // delete comment
   .delete((req, res) => {
     Comment.findByIdAndRemove(req.params.commentID, (err, comment) => {
       if (err) {
