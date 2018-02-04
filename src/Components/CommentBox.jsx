@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import CommentList from './CommentList';
 import CommentForm from './CommentForm';
-import './index.css';
+import '../index.css';
 
 class CommentBox extends Component {
   constructor(props) {
