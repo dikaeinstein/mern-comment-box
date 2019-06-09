@@ -9,7 +9,7 @@
     "express": "^4.16.2",
     "foreman": "^2.0.0",
     "marked": "^0.3.12",
-    "mongoose": "^4.13.9",
+    "mongoose": "^5.5.14",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
